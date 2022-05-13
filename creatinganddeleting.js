@@ -1,0 +1,10 @@
+console.log("deleting and creating in website ");
+let element=document.createElement('li');
+element.className='childul';
+element.id='createdLi';
+element.setAttribute('title','mytitle');
+element.innerText='hello this is created by abhishek ';
+let  ul=document.querySelector('ul.this');
+ul.appendChild(element);
+console.log(ul);
+console.log(element);
